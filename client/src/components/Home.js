@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <div className="home">
       <Users />
-      <hr />
       <AddUser />
     </div>
   );

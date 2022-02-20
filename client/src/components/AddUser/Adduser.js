@@ -19,6 +19,7 @@ function AddUser() {
       <h3>Add User</h3>
       <form onSubmit={onSubmit}>
         <label>Enter User Name : </label>
+        <br />
         <input
           type="text"
           id="name"
@@ -26,6 +27,7 @@ function AddUser() {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+        <br />
         <input type="submit" />
       </form>
     </div>
